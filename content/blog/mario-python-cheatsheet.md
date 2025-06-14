@@ -1,7 +1,7 @@
 ---
 title: "Mario Python Cheatsheet"
 description: "The Python cheatsheet I wish I had when I first started learning Python, explained with Mario Bros examples."
-summary: "A fun Python cheatsheet that explains programming concepts using examples from the Mario Bros universe - perfect for beginners who want to learn with familiar references."
+summary: "The Python cheatsheet I wish I had when I first started learning Python, explained with Mario Bros examples."
 date: 2024-11-21T10:00:00-08:00
 lastmod: 2024-11-21T10:00:00-08:00
 draft: false
