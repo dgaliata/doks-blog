@@ -5,77 +5,240 @@
   margin-left: auto !important;
   margin-right: auto !important;
 }
-// Skills page specific styling with custom green color
-.skills-section {
-  margin-bottom: 3rem;
+// Modern Skills Page Styling
+.skills-page {
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #7DE261, #5BC23F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 
-  h3 {
+  .page-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 4rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: var(--bs-heading-color);
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #7DE261, #5BC23F);
+      margin: 1rem auto;
+      border-radius: 2px;
+    }
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .skill-card {
+    background: linear-gradient(135deg, var(--bs-secondary-bg), var(--bs-tertiary-bg));
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid var(--bs-border-color);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #7DE261, #5BC23F);
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(125, 226, 97, 0.1);
+      border-color: #7DE261;
+    }
+  }
+
+  .skill-header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    font-size: 1.4rem;
+    gap: 1rem;
     margin-bottom: 1rem;
-    color: #7DE261 !important; // Custom green only for skills
+
+    .skill-icon {
+      font-size: 2rem;
+      filter: drop-shadow(0 0 8px rgba(125, 226, 97, 0.3));
+    }
+
+    .skill-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--bs-heading-color);
+    }
   }
 
-  p {
-    text-align: center;
+  .skill-description {
+    color: var(--bs-secondary-color);
     margin-bottom: 1.5rem;
-    font-style: italic;
-    color: var(--bs-secondary);
+    font-size: 0.95rem;
   }
-}
 
-// Skills page lists styling
-.content ul {
-  text-align: left !important;
-  max-width: 600px;
-  margin: 0 auto 2rem auto;
-
-  li {
-    text-align: left;
-    margin-bottom: 0.5rem;
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
-}
 
-// Skills page certifications with green accent
-.certifications-list {
-  text-align: left !important;
-  max-width: 800px;
-  margin: 0 auto;
+  .skill-tag {
+    background: rgba(125, 226, 97, 0.1);
+    color: #7DE261;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid rgba(125, 226, 97, 0.2);
+    transition: all 0.2s ease;
 
-  li {
-    margin-bottom: 0.8rem;
-    padding: 0.5rem;
-    background: var(--bs-secondary-bg);
-    border-radius: 4px;
-    border-left: 3px solid #7DE261; // Green accent
+    &:hover {
+      background: rgba(125, 226, 97, 0.2);
+      transform: scale(1.05);
+    }
   }
-}
 
-// Skills page projects with green accent
-.project-section {
-  background: var(--bs-secondary-bg);
-  border-radius: 8px;
-  padding: 2rem;
-  margin: 2rem auto;
-  max-width: 800px;
-  border-left: 4px solid #7DE261; // Green accent
+  .certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+  }
 
-  h3 {
-    color: #7DE261 !important; // Green headings
+  .cert-item {
+    background: linear-gradient(135deg, var(--bs-secondary-bg), var(--bs-tertiary-bg));
+    border-radius: 12px;
+    padding: 1.5rem;
+    border-left: 4px solid #7DE261;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateX(8px);
+      box-shadow: 0 8px 25px rgba(125, 226, 97, 0.15);
+    }
+  }
+
+  .cert-name {
+    font-weight: 600;
+    color: var(--bs-heading-color);
+    margin-bottom: 0.3rem;
+  }
+
+  .cert-org {
+    color: #7DE261;
+    font-size: 0.9rem;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+  }
+
+  .project-card {
+    background: linear-gradient(135deg, var(--bs-secondary-bg), var(--bs-tertiary-bg));
+    border-radius: 16px;
+    padding: 2.5rem;
+    border: 1px solid var(--bs-border-color);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #7DE261, #5BC23F);
+    }
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 50px rgba(125, 226, 97, 0.15);
+    }
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #7DE261;
     margin-bottom: 1rem;
+  }
+
+  .project-description {
+    color: var(--bs-body-color);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .tech-label {
+    color: #7DE261;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .tech-item {
+    background: rgba(125, 226, 97, 0.08);
+    color: #7DE261;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
     text-align: center;
-  }
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid rgba(125, 226, 97, 0.15);
+    transition: all 0.2s ease;
 
-  p {
-    text-align: left;
-    margin-bottom: 1rem;
+    &:hover {
+      background: rgba(125, 226, 97, 0.15);
+      transform: translateY(-2px);
+    }
   }
+}
 
-  ul {
-    text-align: left !important;
-    margin: 1rem 0;
+@media (max-width: 768px) {
+  .skills-page {
+    .skills-grid,
+    .certifications-grid,
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .skill-card,
+    .project-card {
+      padding: 1.5rem;
+    }
   }
 }
