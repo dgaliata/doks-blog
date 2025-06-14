@@ -1,5 +1,5 @@
 title = "galiata.com"
-baseurl = "http://localhost/"
+baseurl = "https://galiata.com"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
