@@ -72,7 +72,7 @@ description: "Explore my technical skills and specialized knowledge areas"
 
 <div class="skill-card">
 <div class="skill-header">
-<span class="skill-icon"></></span>
+<span class="skill-icon">🔄</span>
 <h3 class="skill-title">DevOps</h3>
 </div>
 <p class="skill-description">Implementing CI/CD pipelines and managing cloud infrastructure.</p>
@@ -123,6 +123,11 @@ description: "Explore my technical skills and specialized knowledge areas"
 <div class="cert-item">
 <div class="cert-name">(ISC)² CCSP</div>
 <div class="cert-org">Certified Cloud Security Professional</div>
+</div>
+
+<div class="cert-item">
+<div class="cert-name">HashiCorp</div>
+<div class="cert-org">Terraform Associate</div>
 </div>
 
 <div class="cert-item">
