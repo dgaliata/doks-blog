@@ -5,7 +5,29 @@
   margin-left: auto !important;
   margin-right: auto !important;
 }
-// Skills page list styling
+// Skills page specific styling with custom green color
+.skills-section {
+  margin-bottom: 3rem;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #7DE261 !important; // Custom green only for skills
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: var(--bs-secondary);
+  }
+}
+
+// Skills page lists styling
 .content ul {
   text-align: left !important;
   max-width: 600px;
@@ -17,29 +39,7 @@
   }
 }
 
-// Skills sections
-.skills-section {
-  margin-bottom: 3rem;
-
-  h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    color: var(--bs-primary);
-  }
-
-  p {
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-style: italic;
-    color: var(--bs-secondary);
-  }
-}
-
-// Certifications
+// Skills page certifications with green accent
 .certifications-list {
   text-align: left !important;
   max-width: 800px;
@@ -50,21 +50,21 @@
     padding: 0.5rem;
     background: var(--bs-secondary-bg);
     border-radius: 4px;
-    border-left: 3px solid var(--bs-primary);
+    border-left: 3px solid #7DE261; // Green accent
   }
 }
 
-// Projects section
+// Skills page projects with green accent
 .project-section {
   background: var(--bs-secondary-bg);
   border-radius: 8px;
   padding: 2rem;
   margin: 2rem auto;
   max-width: 800px;
-  border-left: 4px solid var(--bs-primary);
+  border-left: 4px solid #7DE261; // Green accent
 
   h3 {
-    color: var(--bs-primary);
+    color: #7DE261 !important; // Green headings
     margin-bottom: 1rem;
     text-align: center;
   }
