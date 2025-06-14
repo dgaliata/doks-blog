@@ -3,11 +3,7 @@ title: "Skills"
 description: "Explore my technical skills and specialized knowledge areas"
 ---
 
-# Skills
-
 Explore my technical skills and specialized knowledge areas.
-
-## Professional Skills
 
 <div class="skills-section">
 
