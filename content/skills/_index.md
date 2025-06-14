@@ -5,11 +5,7 @@ description: "Explore my technical skills and specialized knowledge areas"
 
 <div class="skills-page">
 
-# Skills
-
 <p class="page-subtitle">Explore my technical skills and specialized knowledge areas.</p>
-
-<div class="section">
 
 ## Professional Skills
 {.section-title}
@@ -113,9 +109,6 @@ description: "Explore my technical skills and specialized knowledge areas"
 </div>
 
 </div>
-</div>
-
-<div class="section">
 
 ## 📜 Professional Certifications
 {.section-title}
@@ -153,9 +146,6 @@ description: "Explore my technical skills and specialized knowledge areas"
 </div>
 
 </div>
-</div>
-
-<div class="section">
 
 ## 💻 Personal Projects
 {.section-title}
@@ -191,7 +181,6 @@ description: "Explore my technical skills and specialized knowledge areas"
 </div>
 </div>
 
-</div>
 </div>
 
 </div>
