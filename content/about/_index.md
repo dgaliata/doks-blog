@@ -27,13 +27,13 @@ I greatly appreciate comments and thoughts on my posts.
 <div class="education-grid">
 
 <div class="education-card">
-<div class="education-date">2023 – 2024</div>
+<div class="education-date">2024</div>
 <div class="education-degree">Master of Science in Cybersecurity Management</div>
 <div class="education-school">Central Washington University</div>
 </div>
 
 <div class="education-card">
-<div class="education-date">2009 – 2011</div>
+<div class="education-date">2011</div>
 <div class="education-degree">Bachelor of Science in Information Technology</div>
 <div class="education-school">Western Governors University</div>
 </div>
