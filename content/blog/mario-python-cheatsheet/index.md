@@ -11,6 +11,7 @@ tags: ["python", "cheatsheet", "programming", "tutorial"]
 contributors: ["David Galiata"]
 pinned: false
 homepage: false
+images: ["featured.jpg"]
 seo:
   title: "Mario Python Cheatsheet - Learn Python with Mario Bros Examples"
   description: "Fun Python programming cheatsheet using Mario Bros examples. Perfect for beginners learning Python basics with familiar gaming references."
