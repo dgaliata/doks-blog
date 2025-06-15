@@ -70,17 +70,25 @@
   .skill-header {
     display: flex;
     align-items: center;
+    justify-content: flex-start; // Change from center to flex-start
     gap: 1rem;
     margin-bottom: 1rem;
 
     .skill-icon {
       font-size: 1.8rem;
+      line-height: 1; // Add this to fix emoji alignment
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 2rem; // Ensure consistent width
     }
 
     .skill-title {
       font-size: 1.2rem;
       font-weight: 600;
       color: var(--bs-heading-color);
+      line-height: 1.3; // Add this for better text alignment
+      margin: 0; // Remove any default margins
     }
   }
 

@@ -7,7 +7,7 @@ lastmod: 2024-11-21T10:00:00-08:00
 draft: false
 weight: 50
 categories: ["Programming", "Tutorial"]
-tags: ["python", "beginner", "cheatsheet", "programming", "tutorial"]
+tags: ["python", "cheatsheet", "programming", "tutorial"]
 contributors: ["David Galiata"]
 pinned: false
 homepage: false
