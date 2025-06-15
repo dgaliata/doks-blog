@@ -20,6 +20,8 @@ seo:
 
 When I first started learning Python, I found myself constantly Googling the basics. I'd make a little progress here and there, but found myself stuck on simple, quick items. I think it's because a lot of examples use random numbers and lists, etc. that didn't stick with me. As a huge Nintendo and Mario fan, I created this fun cheatsheet that explains Python concepts using examples from Mario Bros.
 
+# Python Cheatsheet
+
 ## Data Types
 
 ```python
@@ -41,8 +43,11 @@ is_small = False
 
 # None type
 empty_block = None    # represents absence of value
+```
 
-# Variables
+## Variables
+
+```python
 # Basic assignment
 lives = 3
 player_name = "Luigi"
@@ -54,8 +59,11 @@ coins, stars, mushrooms = 100, 5, 2
 mario_bros = "OK"      # Can use letters, numbers, underscores
 _princess = "OK"       # Can start with underscore
 1up = "NOT VALID"      # Cannot start with number
+```
 
-# Operators
+## Operators
+
+```python
 # Arithmetic
 coins + bonus_coins    # Addition
 lives - damage         # Subtraction
@@ -77,8 +85,11 @@ lives <= max_lives    # Less than or equal to
 has_star and has_flower  # True if both are true
 has_mushroom or is_fire  # True if at least one is true
 not is_small             # Inverts boolean value
+```
 
-# String Operations
+## String Operations
+
+```python
 # String concatenation
 character = "Mario"
 action = "jumps"
@@ -101,8 +112,11 @@ world = "World 1-1"
 world[0]      # 'W'
 world[0:5]    # 'World'
 world[-3:]    # '1-1'
+```
 
-# Basic List Operations
+## Basic List Operations
+
+```python
 # Creating lists
 characters = ["Mario", "Luigi", "Peach", "Yoshi"]
 inventory = ["Mushroom", 3, "Star", True]
@@ -116,8 +130,11 @@ len(characters)             # Get length of list
 # List slicing
 mario_bros = characters[0:2]    # Get first two elements
 reversed_chars = characters[::-1]  # Reverse the list
+```
 
-# Tuples
+## Tuples
+
+```python
 # Creating tuples (immutable lists)
 coordinates = (3, 5)  # Mario's position in level
 pipe_location = (100, 200, "Underground")
@@ -131,9 +148,13 @@ world_coords = pipe_location[:2]  # First two elements
 len(pipe_location)  # Number of elements
 "Underground" in pipe_location  # Check if value exists
 mario_pos = coordinates + (0,)  # Combine tuples
+```
 
-# Dictionaries
+## Dictionaries
+
+```python
 # Creating dictionaries
+
 character_stats = {
     "Mario": {"lives": 3, "coins": 0, "power": "Fire"},
     "Luigi": {"lives": 3, "coins": 0, "power": "None"}
@@ -158,8 +179,11 @@ power_items = power_ups.items()  # Get key-value pairs
 # Check if key exists
 if "Star" in power_ups:
     print("Star power available!")
+```
 
-# Sets
+## Sets
+
+```python
 # Creating sets (unique items only)
 available_characters = {"Mario", "Luigi", "Peach", "Yoshi"}
 unlocked_worlds = {1, 2, 3}
@@ -175,8 +199,11 @@ player2_items = {"Flower", "Mushroom", "Shell"}
 both_have = player1_items & player2_items  # Intersection
 all_items = player1_items | player2_items  # Union
 unique_to_player1 = player1_items - player2_items  # Difference
+```
 
-# Basic Functions
+## Basic Functions
+
+```python
 # Defining a function
 def power_up(character):
     return f"{character} got a Super Star!"
@@ -193,8 +220,11 @@ def calculate_score(coins, time_left):
 power_up("Mario")              # "Mario got a Super Star!"
 collect_coins()                # "Collected 100 coins!"
 calculate_score(50, 120)       # 6000
+```
 
-# For Loops
+## For Loops
+
+```python
 # Basic for loop
 for character in ["Mario", "Luigi", "Peach"]:
     print(f"{character} is ready to play!")
@@ -210,8 +240,11 @@ for character, stats in character_stats.items():
 # Enumerate for index and value
 for level, boss in enumerate(["Bowser Jr", "Kamek", "Bowser"], 1):
     print(f"Level {level} Boss: {boss}")
+```
 
-# While Loops
+## While Loops
+
+```python
 # Basic while loop
 lives = 3
 while lives > 0:
@@ -237,8 +270,13 @@ while player_power != "Super":
     if found_item == "Mushroom":
         player_power = "Super"
         print("Power up!")
+```
 
-# Putting It All Together
+## Putting It All together
+
+Here's an example to tie everything together.
+
+```python
 # Track Mario's progress through a level
 def play_level(level_number):
     player = {
@@ -281,12 +319,14 @@ for world_num, world_info in worlds.items():
     print(f"World {world_num}")
     for level in range(1, world_info["levels"] + 1):
         print(f"Playing level {world_num}-{level}")
+```
+<br />
 
 # Final Thoughts
 
-- Use meaningful variable names - player_lives is better than pl
-- Use comments to explain WHY, not WHAT (the code should be self-explanatory)
-- Start with simple built-in functions before moving to complex libraries
-- Practice using the interactive Python shell (REPL) to test small code snippets
+* Use meaningful variable names - **player\_lives** is better than **pl**
+* Use comments to explain **WHY, not WHAT** (the code should be self-explanatory)
+* Start with simple built-in functions before moving to complex libraries
+* Practice using the interactive Python shell (REPL) to test small code snippets
 
 Remember, everyone begins with the basics. I'm a big believer in learning the fundamentals before branching out to more advanced topics. Coding has never been my strongest skill so practice and persistence are key. More to come as I have some fun project ideas in mind for 2025!
