@@ -1,40 +1,23 @@
-# Doks
+<h1 align="center">David Galiata | Blog</h1>
 
-Doks is a documentation theme for [Thulite](https://thulite.io/).
+![site logo](https://res.cloudinary.com/dcu6gtw2y/image/upload/v1744322556/4_buulum.png)
 
-## Demo
+<div align="center">
 
-- [doks.netlify.app](https://doks.netlify.app/)
+</div>
 
-## Install
+![galiata.com](https://res.cloudinary.com/dcu6gtw2y/image/upload/v1744322523/dgwebsite_qdy76s.png)
 
-The recommended way to install the latest version of Doks is by running the command below:
+## Motivation
 
-```bash
-npm create thulite@latest -- --template doks
-```
+> Sharing is learning!
 
-Looking for help? Start with our [Getting Started](https://getdoks.org/docs/start-here/getting-started/) guide.
+This blog is a personal space where I share security insights, perspectives, and tech reflections from my journey in the industry.
 
-## Documentation
 
-Visit our [official documentation](https://getdoks.org/).
+## Assets
 
-## Support
+The images in this blog are from [Unsplash](https://unsplash.com/), gifs from [GIPHY](https://giphy.com/), and illustrations are from [Storyset](https://storyset.com/).
 
-Having trouble? Get help in the official [Doks Discussions](https://github.com/thuliteio/doks/discussions).
 
-## Contributing
-
-New contributors welcome! Check out our [Contributor Guides](https://getdoks.org/contribute/) for help getting started.
-
-## Links
-
-- [License (MIT)](LICENSE)
-- [Code of Conduct](https://github.com/thuliteio/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Project Funding](.github/FUNDING.md)
-- [Website](https://getdoks.org/)
-
-## Sponsors
-
-Doks is free, open source software made possible by Netlify, Algolia, and several other amazing organizations and inidviduals. [Sponsor Doks](.github/FUNDING.md) ❤️
+🙏🙏 Thanks for visiting!
