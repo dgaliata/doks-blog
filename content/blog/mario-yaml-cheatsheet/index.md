@@ -2,8 +2,8 @@
 title: "Mario YAML Cheatsheet"
 description: "The cheatsheet I wish I had when I first started learning YAML."
 summary: "The cheatsheet I wish I had when I first started learning YAML."
-date: "2025-06-07T00:00:00.000-08:00"
-lastmod: "2025-06-07T00:00:00.000-08:00"
+date: 2025-06-07T00:00:00.000-08:00
+lastmod: 2025-06-07T00:00:00.000-08:00
 draft: false
 weight: 50
 categories: ["Programming", "Tutorial"]
