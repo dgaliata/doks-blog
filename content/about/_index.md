@@ -186,7 +186,7 @@ I am dedicated to lifelong learning and passionate about DevOps, cybersecurity, 
 
 <div class="quote-section">
 <div class="quote-text">
-"I bring real-world skills, dedication, and a genuine love for creating impactful solutions. Let's connect!"
+"I bring real-world skills, dedication, and a genuine love for creating impactful solutions."
 </div>
 <div class="quote-author">— David Galiata</div>
 </div>
