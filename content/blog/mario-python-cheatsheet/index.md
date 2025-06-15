@@ -18,6 +18,7 @@ seo:
   canonical: ""
   noindex: false
 ---
+# Introduction
 
 When I first started learning Python, I found myself constantly Googling the basics. I'd make a little progress here and there, but found myself stuck on simple, quick items. I think it's because a lot of examples use random numbers and lists, etc. that didn't stick with me. As a huge Nintendo and Mario fan, I created this fun cheatsheet that explains Python concepts using examples from Mario Bros.
 

@@ -19,6 +19,8 @@ seo:
   noindex: false
 ---
 
+# Introduction
+
 I keep seeing the words "integrating AI" into workloads, tools, organizations, and teams. This has become a common phrase in boardrooms and planning sessions. As a security engineer, I've observed that this simple phrase often has a more complex range of implementation details, each with different security implications. What exactly does "integrating AI" mean for your organization, and more importantly, how do you properly scope the security requirements for these initiatives?
 
 ## The Problem with Vague AI Integration Plans
