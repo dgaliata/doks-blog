@@ -1,9 +1,9 @@
 ---
 title: "Mario YAML Cheatsheet"
-description: "The cheatsheet I wish I had when I first started learning YAML."
-summary: "The cheatsheet I wish I had when I first started learning YAML."
-date: 2025-06-07T00:00:00.000-08:00
-lastmod: 2025-06-07T00:00:00.000-08:00
+description: "The YAML cheatsheet I wish I had when I first started learning YAML, explained with Mario Bros examples."
+summary: "The YAML cheatsheet I wish I had when I first started learning YAML, explained with Mario Bros examples."
+date: 2025-06-07T10:00:00-08:00
+lastmod: 2025-06-07T10:00:00-08:00
 draft: false
 weight: 50
 categories: ["Programming", "Tutorial"]
@@ -13,11 +13,11 @@ pinned: false
 homepage: false
 images: ["featured.jpg"]
 seo:
-  title: "Mario YAML Cheatsheet - Blog Post"
-  description: "The cheatsheet I wish I had when I first started learning YAML."
+  title: "Mario YAML Cheatsheet - Learn YAML with Mario Bros Examples"
+  description: "Fun YAML programming cheatsheet using Mario Bros examples. Perfect for beginners learning YAML basics with familiar gaming references."
   canonical: ""
-  noindex: "false"
-  ---
+  noindex: false
+---
 # Introduction
 
 This year has been all about leveling up my DevOps skills. I completed several training modules from GitLab, worked on personal projects, and am currently diving head first into GitHub Actions. With that being said, learning YAML has been high on my list. As configuration files become more complex mastering YAML syntax while keeping security best practices in mind has become essential. I've put together this Mario Bros-themed cheat sheet (I am a huge Nintendo fan) to make the learning process more engaging while covering the key concepts every DevOps security engineer should know.
