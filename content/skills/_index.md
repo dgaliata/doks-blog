@@ -113,81 +113,68 @@ description: "Explore my technical skills and specialized knowledge areas"
 ## 🌟 Professional Certifications
 {.section-title}
 
+<div class="certifications-container">
+
+<div class="credly-link">
+<a href="https://www.credly.com/users/david-galiata" target="_blank" rel="noopener" class="credly-button">
+<i class="fas fa-external-link-alt"></i>
+View My Complete Credly Profile
+</a>
+</div>
+
 <div class="certifications-grid">
 
-<div class="cert-item">
-<div class="cert-name">ISACA CISM</div>
-<div class="cert-org">Certified Information Security Manager</div>
+<div class="cert-category">
+<div class="cert-category-title">
+<span class="category-icon">🔐</span>
+Security & Risk Management
+</div>
+<ul class="cert-items">
+<li><span class="cert-name">ISACA CISM</span> - <span class="cert-org">Certified Information Security Manager</span></li>
+<li><span class="cert-name">(ISC)² CCSP</span> - <span class="cert-org">Certified Cloud Security Professional</span></li>
+<li><span class="cert-name">(ISC)² Certified in Cybersecurity (CC)</span> - <span class="cert-org">Cybersecurity Foundation</span></li>
+<li><span class="cert-name">Cloud Security Alliance CCAK</span> - <span class="cert-org">Certificate of Cloud Auditing Knowledge</span></li>
+<li><span class="cert-name">Cloud Security Alliance CCZT</span> - <span class="cert-org">Certificate of Cloud Zero Trust</span></li>
+</ul>
 </div>
 
-<div class="cert-item">
-<div class="cert-name">(ISC)² CCSP</div>
-<div class="cert-org">Certified Cloud Security Professional</div>
+<div class="cert-category">
+<div class="cert-category-title">
+<span class="category-icon">☁️</span>
+Cloud Platforms
+</div>
+<ul class="cert-items">
+<li><span class="cert-name">AWS Certified SysOps Administrator</span> - <span class="cert-org">Associate Level</span></li>
+<li><span class="cert-name">AWS Certified Cloud Practitioner</span> - <span class="cert-org">Foundation Level</span></li>
+<li><span class="cert-name">Microsoft Azure Fundamentals (AZ-900)</span> - <span class="cert-org">Cloud Concepts & Services</span></li>
+</ul>
 </div>
 
-<div class="cert-item">
-<div class="cert-name">HashiCorp</div>
-<div class="cert-org">Terraform Associate</div>
+<div class="cert-category">
+<div class="cert-category-title">
+<span class="category-icon">🔄</span>
+DevOps & Development
+</div>
+<ul class="cert-items">
+<li><span class="cert-name">HashiCorp Terraform Associate</span> - <span class="cert-org">Infrastructure as Code</span></li>
+<li><span class="cert-name">GitHub Foundations</span> - <span class="cert-org">Platform Certification</span></li>
+<li><span class="cert-name">GitLab Certified Associate CI/CD</span> - <span class="cert-org">Continuous Integration/Deployment</span></li>
+<li><span class="cert-name">GitLab Certified Security Specialist</span> - <span class="cert-org">DevSecOps Integration</span></li>
+</ul>
 </div>
 
-<div class="cert-item">
-<div class="cert-name">(ISC)² Certified in Cybersecurity (CC)</div>
-<div class="cert-org">Cybersecurity Foundation Certification</div>
+<div class="cert-category">
+<div class="cert-category-title">
+<span class="category-icon">📋</span>
+Foundation & Management
+</div>
+<ul class="cert-items">
+<li><span class="cert-name">CompTIA A+</span> - <span class="cert-org">Hardware & Software Fundamentals</span></li>
+<li><span class="cert-name">CompTIA Network+</span> - <span class="cert-org">Networking Concepts & Infrastructure</span></li>
+<li><span class="cert-name">CompTIA Project+</span> - <span class="cert-org">Project Management Fundamentals</span></li>
+</ul>
 </div>
 
-<div class="cert-item">
-<div class="cert-name">Cloud Security Alliance & ISACA CCAK</div>
-<div class="cert-org">Certificate of Cloud Auditing Knowledge</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">Cloud Security Alliance CCZT</div>
-<div class="cert-org">Certificate of Cloud Zero Trust</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">AWS Certified SysOps Administrator</div>
-<div class="cert-org">Associate Level - Amazon Web Services</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">AWS Certified Cloud Practitioner</div>
-<div class="cert-org">Foundation Level - Amazon Web Services</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">GitHub Foundations</div>
-<div class="cert-org">GitHub Platform Certification</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">GitLab Certified Associate CI/CD</div>
-<div class="cert-org">Continuous Integration/Continuous Deployment</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">GitLab Certified Security Specialist</div>
-<div class="cert-org">DevSecOps and Security Integration</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">Microsoft Azure Fundamentals (AZ-900)</div>
-<div class="cert-org">Cloud Concepts and Azure Services</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">CompTIA A+</div>
-<div class="cert-org">Hardware and Software Fundamentals</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">CompTIA Network+</div>
-<div class="cert-org">Networking Concepts and Infrastructure</div>
-</div>
-
-<div class="cert-item">
-<div class="cert-name">CompTIA Project+</div>
-<div class="cert-org">Project Management Fundamentals</div>
 </div>
 
 </div>
@@ -227,6 +214,8 @@ description: "Explore my technical skills and specialized knowledge areas"
 <div class="tech-item">Markdown</div>
 <div class="tech-item">SCSS</div>
 </div>
+</div>
+
 </div>
 
 </div>
