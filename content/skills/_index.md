@@ -7,9 +7,6 @@ description: "Explore my technical skills and specialized knowledge areas"
 
 <p class="page-subtitle">Explore my technical skills and specialized knowledge areas.</p>
 
-## Professional Skills
-{.section-title}
-
 <div class="skills-grid">
 
 <div class="skill-card">
